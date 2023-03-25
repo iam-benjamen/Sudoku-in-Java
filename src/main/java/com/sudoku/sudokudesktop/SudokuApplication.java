@@ -1,6 +1,6 @@
 package com.sudoku.sudokudesktop;
-
 import com.sudoku.sudokudesktop.userinterface.IUserInterfaceContract;
+import com.sudoku.sudokudesktop.userinterface.UserInterfaceImpl;
 import javafx.application.Application;
 import javafx.stage.Stage;
 import java.io.IOException;
