@@ -1,4 +1,4 @@
-package com.sudoku.sudokudesktop.problemDomain;
+package com.sudoku.sudokudesktop.problemdomain;
 
 import java.io.IOException;
 

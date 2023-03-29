@@ -1,6 +1,6 @@
 package com.sudoku.sudokudesktop.userinterface;
 
-import com.sudoku.sudokudesktop.problemDomain.SudokuGame;
+import com.sudoku.sudokudesktop.problemdomain.SudokuGame;
 
 public interface IUserInterfaceContract {
     interface EventLister{
@@ -11,7 +11,7 @@ public interface IUserInterfaceContract {
     interface View{
         void setListener(IUserInterfaceContract.EventLister listener);
         void updateSquare(int x, int y, int input);
-        void updateSquare(SudokuGame game);
+        void updateBoard(SudokuGame game);
         void showDialog(String Message);
         void showError(String message);
     }
